@@ -92,8 +92,8 @@ public class CyanogenSettingsPage extends SetupPage {
     private static void writeDisableNavkeysOption(Context context, boolean enabled) {
         final SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
 
-        CMSettings.Global.putInt(context.getContentResolver(),
-                CMSettings.Global.DEV_FORCE_SHOW_NAVBAR, enabled ? 1 : 0);
+        CMSettings.Secure.putInt(context.getContentResolver(),
+                CMSettings.Secure.DEV_FORCE_SHOW_NAVBAR, enabled ? 1 : 0);
         CMHardwareManager hardware = CMHardwareManager.getInstance(context);
         hardware.set(CMHardwareManager.FEATURE_KEY_DISABLE, enabled);
 
