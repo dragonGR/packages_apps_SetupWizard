@@ -40,7 +40,6 @@ public class SetupWizardApp extends Application {
     public static final String ACTION_SETUP_WIFI = "android.net.wifi.PICK_WIFI_NETWORK";
     public static final String ACTION_SETUP_BIOMETRIC = "android.settings.BIOMETRIC_ENROLL";
     public static final String ACTION_SETUP_LOCKSCREEN = "com.android.settings.SETUP_LOCK_SCREEN";
-    public static final String ACTION_RESTORE_FROM_BACKUP = "com.stevesoltys.seedvault.RESTORE_BACKUP";
     public static final String ACTION_EMERGENCY_DIAL = "com.android.phone.EmergencyDialer.DIAL";
     public static final String ACTION_NEXT = "com.android.wizard.NEXT";
     public static final String ACTION_LOAD = "com.android.wizard.LOAD";
@@ -71,7 +70,6 @@ public class SetupWizardApp extends Application {
     public static final int REQUEST_CODE_SETUP_BLUETOOTH= 5;
     public static final int REQUEST_CODE_SETUP_BIOMETRIC = 7;
     public static final int REQUEST_CODE_SETUP_LOCKSCREEN = 9;
-    public static final int REQUEST_CODE_RESTORE = 10;
 
     public static final int RADIO_READY_TIMEOUT = 10 * 1000;
 
