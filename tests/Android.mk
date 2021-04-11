@@ -13,12 +13,12 @@ LOCAL_CERTIFICATE := platform
 
 LOCAL_PRIVATE_PLATFORM_APIS := true
 
-LOCAL_REQUIRED_MODULES := privapp_whitelist_org.lineageos.setupwizard-tests.xml
+LOCAL_REQUIRED_MODULES := privapp_whitelist_com.aicp.setupwizard-tests.xml
 
 include $(BUILD_PACKAGE)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := privapp_whitelist_org.lineageos.setupwizard-tests.xml
+LOCAL_MODULE := privapp_whitelist_com.aicp.setupwizard-tests.xml
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/permissions
