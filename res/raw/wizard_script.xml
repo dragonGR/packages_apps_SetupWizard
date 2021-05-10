@@ -99,9 +99,6 @@
     </WizardAction>
     <WizardAction wizard:script="android.resource://com.google.android.setupwizard/xml/wizard_script_qr_provision_flow" id="qr_provision_flow" />
     <WizardAction wizard:uri="intent:#Intent;action=com.aicp.setupwizard.DEVICE_SPECIFIC;end" id="oem_post_setup">
-        <result wizard:action="recovery_update" />
-    </WizardAction>
-    <WizardAction wizard:uri="intent:#Intent;action=com.aicp.setupwizard.AICP_RECOVERY_UPDATE;end" id="recovery_update">
         <result wizard:action="finish" />
     </WizardAction>
     <WizardAction wizard:uri="intent:#Intent;action=com.aicp.setupwizard.AICP_SETUP_COMPLETE;end" id="finish">

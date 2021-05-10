@@ -221,7 +221,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".UpdateRecoveryActivity"
+<!--        <activity android:name=".UpdateRecoveryActivity"
                   android:label="@string/activity_label_empty"
                   android:excludeFromRecents="true"
                   android:configChanges="mcc|mnc"
@@ -231,7 +231,7 @@
                 <action android:name="com.aicp.setupwizard.AICP_RECOVERY_UPDATE"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
-        </activity>
+        </activity> -->
 
         <activity android:name=".DeviceSpecificActivity"
                   android:label="@string/activity_label_empty"
